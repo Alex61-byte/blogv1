@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+header {
+    background-image:linear-gradient( to right,rgb(121, 168, 184),rgb(105, 71, 71));
+    background-size: cover;
+    height: 120px;
+    position: sticky;
+    top: 0;
+}
+
+
+
+.h_title{
+    text-align: center;
+    float: left;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+
+button {
+    float: right; 
+    position: relative;
+    margin-top: 35px;
+    margin-right: 20px;
+    height: 50px;
+    width: 120px;
+    border-radius: 15%;
+    background-color: darkcyan;
+    opacity: 0.7;
+    transition: 0.3s;
+    cursor: pointer; 
+}
+
+button:hover {opacity: 1}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.btn_home{
+    background-color: black;
+}
+
+/*Portugal*/
+main {
+    color: darkslategrey;
+}
+
+.maintitle {
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30ps;
+    font-weight: bold;
+}
+
+h2{
+    font-style: italic;
+    font-size: 30px;
+}
+
+.article1, .article2, .article3  {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.article2 {
+    flex-direction: row-reverse;
+}
+
+img {
+    padding: 10px;
+    border: 5px solid lightsteelblue;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+img:hover{
+    transition-duration: 3s;
+    transform:scale(1.5);
+    border: 0;
+}
+
+/* Portugal */
+
+/* Switzerland */
+
+.second_post {
+    color: #352225;
+}
+
+.article4, .article5, .article6  {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.article4, .article6 {
+    flex-direction: row-reverse;
+}
+
+.second_post_img {
+    padding: 10px;
+    border: 5px solid #ceaf9b;
+}
+
+
+/* Switzerland */
+
+footer{
+    background-image:linear-gradient( to right,rgb(121, 168, 184),rgb(105, 71, 71));
+    background-size: cover;
+    height: 120px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.f_title{
+font-size: 30px;
+    color: wheat;
+    margin-left: 30px;
+    margin-top: 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+p {
+    float: right;
+    color: wheat;
+    float: right;
+    display: block;
+    margin-right:40px;
+    font-size: 24px;
+   }
